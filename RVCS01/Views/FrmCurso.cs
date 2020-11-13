@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace RVCS01
 {
-    public partial class Form1 : Form
+    public partial class FrmCurso : Form
     {
-        public Form1()
+        public FrmCurso()
         {
             InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
